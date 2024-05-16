@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar__menue">
+                <div class="navbar__menue-image" onclick="myFunction(this)">
+                    <div class="navbar__menue-image-line1"></div>
+                    <div class="navbar__menue-image-line2"></div>
+                    <div class="navbar__menue-image-line3"></div>  
+                </div>
+            </div>
+            <div class="navbar__logo">
+                <h2 class="navbar__logo-text">LOGO</h2>
+            </div>
+            <div class="navbar__contact">
+                
+                <b class="navbar__contact-number">+7(863) 000 00 00</b>
+                
+                <p   class="navbar__contact-city">Ростов-на-Дону</p>
+            </div>
+        </div>
+    </header>
+            <img class="image-first" src="./first-image.png"/>
+            <div class="info">
+                <div class="info__wrapper">
+                    <div class="info__wrapper-box">
+                        <h1 class="info__wrapper-box-heading">Многопрофильная клиника для детей и взрослых</h1>
+                    </div>
+                    <div class="info__wrapper-box2">
+                        <p class="imfo__wrapper-box2-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                </div>
+            </div>
+            <div clss="image-wrapper">
+                <img class="image-wrapper_secondImages" src="second-image.jpg">
+            </div>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change")};
+    </script>
+</body>
+</html>
