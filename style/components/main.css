@@ -1,0 +1,130 @@
+.image-first {
+    width: 100%;
+    height: 288px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.info {
+    background-color: #F8FBFA;
+    margin-top: 0px;
+    width: 100%;
+    height: 261px;
+
+}
+
+.info__wrapper {
+    display: block;
+
+}
+h1{
+    margin-bottom: 0px;
+}
+
+.info__wrapper-box {
+padding-top: 34px;
+padding-left: 17px;
+padding-right: 18px;
+color: #364844;
+}
+
+.info__wrapper-box-heading {
+    margin: 0px;
+    font-size: 26px;
+    font-weight:700;
+    line-height:33.64px;
+    margin-right: 90px;
+}
+
+.info__wrapper-box2 {
+    margin-top: 9px;
+    margin-left: 17px;
+    margin-right: 18px;
+    padding-right: 40px;
+}
+
+.info__wrapper-box2-text{
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.service-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 49px;
+    padding-left: 17px;
+    padding-right: 18px;
+}
+.slide_params{
+    width: 340px;
+    height: 558px;
+    display: none;
+}
+
+.service-wrapper__secondImages {
+    width: 100%;
+    height: 169px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.service-wrapper__greenArea {
+    height: 367px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #E2F0EF;
+    padding-top: 22px;
+    padding-left: 23px;
+    padding-right: 30px;
+}
+
+.service-wrapper__greenArea-text {
+    display: flex;
+    flex-direction: column;
+    color: #364844;
+}
+
+.service-wrapper__greenArea-text-titleBox {
+    display: flex;
+    flex-direction: column;
+}
+.service-wrapper__greenArea-text-titleBox-title{
+    gap: 17px;
+    font-size: 26px;
+    margin: 0px;
+}
+.service-wrapper__greenArea-text-titleBox-forMen{
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.service-wrapper__greenArea-text-list-box{
+    padding: 0px;
+    margin-top: 12px;
+    margin-bottom: 17px;
+}
+.service-wrapper__greenArea-text-list-ul{
+    display: flex;
+    align-items: baseline;
+}
+.service-wrapper__greenArea-text-list-ul-circle{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #1FA181;
+    margin-right: 9px;
+}
+.service-wrapper__greenArea-text-list-ul-li{
+    list-style-type: none;
+    line-height: 20.3px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.service-wrapper__greenArea-text-title-price-actualPrice{
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.service-wrapper__greenArea-text-title-price-oldPrice{
+    color: #868686;
+}

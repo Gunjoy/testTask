@@ -1,0 +1,28 @@
+.buttonsWrapper{
+    margin-top: 27px;
+    display: flex;
+    width: 100%;
+    
+}
+
+.buttonsWrapper_button-signIn{
+    width: 137px;
+    height: 43px;
+    border-radius: 50px;
+    background-color: #0DBC91;
+    border: none;
+    color: aliceblue;
+    
+}
+.buttonsWrapper_button-moreDetails{
+    width: 137px;
+    height: 43px;
+    border-radius: 50px;
+    overflow:hidden;
+    border: 1px solid;
+    border-color: #0DBC91;
+    border-style: ridge;
+    color: #0dbc73;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 7px;
+}

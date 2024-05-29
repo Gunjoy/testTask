@@ -1,34 +1,37 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
-
-<body>
-    <header>
-        <div class="navbar">
-            <div class="navbar__menue">
-                <div class="navbar__menue-image" onclick="myFunction(this)">
-                    <div class="navbar__menue-image-line1"></div>
-                    <div class="navbar__menue-image-line2"></div>
-                    <div class="navbar__menue-image-line3"></div>  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change")};
+    </script>
+    <script src="./components/slider.js"></script>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="navbar__menue">
+                    <div class="navbar__menue-image" onclick="myFunction(this)">
+                        <div class="navbar__menue-image-line1"></div>
+                        <div class="navbar__menue-image-line2"></div>
+                        <div class="navbar__menue-image-line3"></div>  
+                    </div>
+                </div>
+                <div class="navbar__logo">
+                    <h2 class="navbar__logo-text">LOGO</h2>
+                </div>
+                <div class="navbar__contact">
+                    <b class="navbar__contact-number">+7(863) 000 00 00</b>
+                    <p   class="navbar__contact-city">Ростов-на-Дону</p>
                 </div>
             </div>
-            <div class="navbar__logo">
-                <h2 class="navbar__logo-text">LOGO</h2>
-            </div>
-            <div class="navbar__contact">
-                
-                <b class="navbar__contact-number">+7(863) 000 00 00</b>
-                
-                <p   class="navbar__contact-city">Ростов-на-Дону</p>
-            </div>
-        </div>
-    </header>
+        </header>
+        <main>
+
             <img class="image-first" src="./first-image.png"/>
             <div class="info">
                 <div class="info__wrapper">
@@ -36,16 +39,69 @@
                         <h1 class="info__wrapper-box-heading">Многопрофильная клиника для детей и взрослых</h1>
                     </div>
                     <div class="info__wrapper-box2">
-                        <p class="imfo__wrapper-box2-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <p class="info__wrapper-box2-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     </div>
                 </div>
             </div>
-            <div clss="image-wrapper">
-                <img class="image-wrapper_secondImages" src="second-image.jpg">
+            <div class="service-wrapper slide">
+                <img class="service-wrapper__secondImages" src="second-image.jpg">
+                <div class="service-wrapper__greenArea">
+                <div class="service-wrapper__greenArea-text">
+                    <div class="service-wrapper__greenArea-text-titleBox">
+                        <h2 class="service-wrapper__greenArea-text-titleBox-title">CHECK-UP</h2>
+                        <span class="service-wrapper__greenArea-text-titleBox-forMen">для мужчин</span>
+                    </div>
+                    <div class="service-wrapper__greenArea-text-list">
+                        <ul class="service-wrapper__greenArea-text-list-box">
+                            <div class="service-wrapper__greenArea-text-list-ul">
+                                <div class="service-wrapper__greenArea-text-list-ul-circle"></div>
+                                <li class="service-wrapper__greenArea-text-list-ul-li">Гормональный скрининг</li>
+                            </div>
+                            <div class="service-wrapper__greenArea-text-list-ul">
+                                <div class="service-wrapper__greenArea-text-list-ul-circle"></div>
+                                <li class="service-wrapper__greenArea-text-list-ul-li">Тестестерон</li>
+                            </div>
+                            <div class="service-wrapper__greenArea-text-list-ul">
+                                <div class="service-wrapper__greenArea-text-list-ul-circle"></div>
+                                <li class="service-wrapper__greenArea-text-list-ul-li">Свободный тестестерон</li>
+                            </div>
+                            <div class="service-wrapper__greenArea-text-list-ul">
+                                <div class="service-wrapper__greenArea-text-list-ul-circle"></div>
+                                <li class="service-wrapper__greenArea-text-list-ul-li">Глобулин, связывающий половые гармоны</li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="service-wrapper__greenArea-text-title-price">
+                        <span class="service-wrapper__greenArea-text-title-price-actualPrice">Всего 2800₽</span>
+                        <del class="service-wrapper__greenArea-text-title-price-oldPrice">3500₽</del>
+                    </div>
+                    <div class="buttonsWrapper">
+                        <button class="buttonsWrapper_button-signIn">Записаться</button>
+                        <button class="buttonsWrapper_button-moreDetails">Подробнее</button>
+                    </div>
+                </div> 
+                </div>
             </div>
-    <script>
-        function myFunction(x) {
-            x.classList.toggle("change")};
-    </script>
-</body>
+            <div class="slide slide_params">
+                <img src="./berserk.jpg">
+            </div>
+            <div class="slide slide_params">
+                <img src="ayanami.jpg">
+            </div>
+            <div>
+                <div class="slider-wrapper">
+
+                    <button class="sliderButton">
+                        <img class="slider-wrapper_button-left" src="./arrow.jpg" alt="arrowLeft">
+                    </button>
+                    <button class="sliderButton">
+                        <img class="slider-wrapper_button-right" src="./arrow.jpg" alt="arrowLeft">
+                    </button>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
 </html>

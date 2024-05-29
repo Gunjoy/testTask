@@ -1,0 +1,12 @@
+.sliderButton{
+background-color: rgba(0, 0, 0, 0);
+}
+.slider-wrapper_button-right{
+    width: 34px;
+    height: 16.47px;
+    transform: rotate(180deg);
+}
+.slider-wrapper_button-left{
+    width: 34px;
+    height: 16.47px;
+}
